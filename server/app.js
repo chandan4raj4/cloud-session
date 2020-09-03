@@ -40,7 +40,7 @@ app.all('/*', function(req, res, next) {
 app.set('port', process.env.PORT || 8080);
 
 http.createServer(app).listen(app.get('port'), function() {
-  console.log('Cognipay Server listening on port ' + app.get('port'));
+  console.log('Cognipay-Server listening on port ' + app.get('port'));
 });
 
 
